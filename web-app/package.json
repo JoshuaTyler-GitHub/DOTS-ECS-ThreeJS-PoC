@@ -16,10 +16,11 @@
     "webpack-merge": "^5.8.0"
   },
   "scripts": {
-    "build": "react-scripts build",
-    "start": "react-scripts start",
+    "start": "npm run resolve && react-scripts start",
+    "build": "npm run resolve && react-scripts build",
     "test": "react-scripts test",
-    "webpack": "node webpack.config.js"
+    "eject": "npm run react-scripts eject",
+    "resolve": "node ./webpack.config.js"
   },
   "eslintConfig": {
     "extends": [
