@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "jsx": "preserve",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "paths": {
+      "@app/*": ["./main/app/*"],
+      "@components/*": ["./main/app/components/*"],
+      "@editor/*": ["./main/editor/*"],
+      "@engine/*": ["./main/engine/*"],
+      "@errors/*": ["./main/errors/*"],
+      "@game/*": ["./main/game/*"],
+      "@images/*": ["./main/app/resources/images/*"],
+      "@logger/*": ["./main/logger/*"],
+      "@sounds/*": ["./main/app/resources/sounds/*"],
+      "@state/*": ["./main/app/state/*"],
+      "@styles/*": ["./main/app/resources/styles/*"],
+      "@svgs/*": ["./main/app/resources/svgs/*"],
+      "@utils/*": ["./main/utils/*"],
+      "@test-app/*": ["./test/app/*"],
+      "@test-components/*": ["./test/app/components/*"],
+      "@test-editor/*": ["./test/editor/*"],
+      "@test-engine/*": ["./test/engine/*"],
+      "@test-errors/*": ["./test/errors/*"],
+      "@test-game/*": ["./test/game/*"],
+      "@test-images/*": ["./test/app/resources/images/*"],
+      "@test-logger/*": ["./test/logger/*"],
+      "@test-sounds/*": ["./test/app/resources/sounds/*"],
+      "@test-state/*": ["./test/app/state/*"],
+      "@test-styles/*": ["./test/app/resources/styles/*"],
+      "@test-svgs/*": ["./test/app/resources/svgs/*"],
+      "@test-utils/*": ["./test/utils/*"]
+    },
+    "outDir": "./build",
+    "resolveJsonModule": true,
+    "target": "es6"
+  },
+  "include": ["src/**/*"]
+}

@@ -1,0 +1,10 @@
+{
+  "slices": {
+    "game": {
+      "controls": "Game_Controls",
+      "environment": "Game_Environment",
+      "instance": "Game_Instance",
+      "render": "Game_Render"
+    }
+  }
+}
